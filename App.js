@@ -5,7 +5,7 @@ import AnimatedNumberLocalStorage from "./AnimatedNumberLocalStorage";
 export default function App() {
   return (
     <View style={styles.container}>
-      <AnimatedNumberLocalStorage storageKey={"test-key"} to={800} />
+      <AnimatedNumberLocalStorage storageKey={"test-key"} to={100} />
     </View>
   );
 }

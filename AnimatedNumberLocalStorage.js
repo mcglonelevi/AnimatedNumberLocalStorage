@@ -13,7 +13,7 @@ function useStorageInitialValue(storageKey, to) {
       setStorageValue(asyncStorageValue ? asyncStorageValue : 0);
       AsyncStorage.setItem(storageKey, to.toString());
     })();
-  }, [storageKey, to]);
+  }, [storageKey, setStorageValue, to]);
 
   return storageValue;
 }
